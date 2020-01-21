@@ -4,14 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Board b = new Board("　");
-        b.showBoard();
+        Board b = new Board();
 
-        Piece p = new Piece();
-        p.piecechoice();
-        p.piecemove();
 
-        b.showBoard();
+
+
 
 
 
