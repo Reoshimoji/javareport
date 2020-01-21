@@ -7,6 +7,11 @@ public class Main {
         Board b = new Board("　");
         b.showBoard();
 
+        Piece p = new Piece();
+        p.piecechoice();
+        p.piecemove();
+
+        b.showBoard();
 
 
 
